@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #e9ecef;
+}
+
+html {
+    height: 100%;
+    background: none; 
+}
+
+@media (min-width: 992px){
+    #mainNav {
+        padding-top: 0px; 
+        padding-bottom: 0px; 
+        -webkit-transition: padding-top .3s,padding-bottom .3s;
+        -moz-transition: padding-top .3s,padding-bottom .3s;
+        transition: padding-top .3s,padding-bottom .3s;
+        border: none;
+        background-color: transparent;
+    }
+}
+
+#deja_un_compte {
+    width: 100%;
+    /*background: #27AE60;*/
+    font-weight: bold;
+    color: white;
+
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    /* margin: 10px 5px;*/
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #msform {
+        width: 100%;
+        margin: 50px auto;
+        text-align: center;
+        position: relative;
+    }
+}
+
+@media (min-width: 768px) and ( max-width: 992px) {
+    #msform {
+        width: 80%;
+        margin: 50px auto;
+        text-align: center;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #msform {
+        width: 65%;
+        margin: 95px auto;
+        text-align: center;
+        position: relative;
+    }
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+/*modification form*/
+.form-group {
+  margin-bottom: 0rem;
+}
+
+#msform input, #msform textarea {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 7px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: montserrat;
+  color: #2C3E50;
+  font-size: 13px;
+}
+
+@media (min-width: 992px){
+    #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #949090;
+ }
+
+ #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+     padding: 0px 0; 
+  }
+}
+
+#mainNav {
+    background: #949090;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+   padding-bottom: 0px; 
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+div.dimension_col .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 4px;
+    padding-left: 5px;
+}
+

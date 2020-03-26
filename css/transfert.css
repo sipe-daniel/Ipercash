@@ -1,0 +1,88 @@
+ /* Flag  */
+.flag.flag-en {
+    background-position: -144px -154px;
+}
+
+.flag.flag-fr {
+    background-position: -144px -44px;
+}
+.flag {
+    width: 16px;
+    height: 11px;
+    display: inline-block;
+    border-style: none;
+    background: url(img/flags.png) no-repeat;
+}
+
+html {
+    height: 100%;
+    background: none; 
+}
+
+@media (min-width: 992px){
+    #mainNav {
+        padding-top: 0px; 
+        padding-bottom: 0px; 
+        -webkit-transition: padding-top .3s,padding-bottom .3s;
+        -moz-transition: padding-top .3s,padding-bottom .3s;
+        transition: padding-top .3s,padding-bottom .3s;
+        border: none;
+        background-color: none; 
+    }
+}
+  
+body {
+    font-family: 'Roboto';
+    background-color: #e9ecef; 
+}
+
+header.masthead {
+    text-align: center;
+    color: black; 
+    background-image: none; 
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*pour le padding normale du footer*/
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+/*pour le style du form*/
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    position: relative;
+}
+
+@media (max-width: 768px){
+    .icone{ 
+    display: none;
+    }
+}
+
+/*apres que les icones ont disparus reglage du formulaire  */
+@media (min-width: 992px){
+    #mainNav.navbar-shrink {
+        padding-top: 0;
+        padding-bottom: 0;
+        background-color: #949090;
+    } 
+}
+    
+/* nav color */
+#mainNav {
+    background: #949090;
+}
+
+*{
+    font-family: 'Alegreya Sans', sans-sertransfert_rapidite_titleif; 
+}
